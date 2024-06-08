@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width", initial-scale="1.0">
+        <meta http-equiv="X-UA-Compatible" content="IE-Edge">
+        <title>Palrishabh</title>
+        <link rel="stylesheet" href="styles.css">
+        <script src="https://kit.fontawesome.com/eb93ecbf11.js" crossorigin="anonymous"></script>
+    </head>
+
+    <body>
+        <div id="header">
+            <div class="container">
+                <nav>
+                    <img src="images/logo.png" alt="main" class="logo"/>
+                    <ul id="sidemenu">
+                        <li><a href="#header">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#portfolio">Portfolio</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                        <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                    </ul>
+                    <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+                </nav>
+
+                <div class="header-text">
+                    <p id="mainWelcomeText">Physics, AI and Robotics enthusiast</p>
+                    <h1 id="mainWelcome">Hey! I'm <span>Rishabh Pal</span></h1>
+                </div>
+            </div>
+        </div>
+<!-------about--------->
+
+        <div id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="about-col-1">
+                        <img src="images/user.jpg" alt="">
+                    </div>
+                    <div class="about-col-2">
+                        <h1 class="subtitle">About Me</h1>
+                        <p>Hi! I'm Rishabh Pal, a student studying at Victorious Kidss Educares in MYP5 with an IB programme. I love Physics, AI and Robotics and always aim and think about implementation of the tools provided by Physics into AI and Robotics. I look to push the borders of AI and Robotics in an ethical, and safe manner all with the implementation of Physics that I strongly believe can be embedded into the two fields. As a passion to serve back to the community, I also lead team 'DROPLETS', aimng to save water in various residences and hotels. You're welcome!</p>
+                        <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                            <p class="tab-links" onclick="opentab('activites')">Activities</p>
+                            <p class="tab-links" onclick="opentab('education')">Education</p>
+                        </div>
+                        <div class="tab-contents active-tab" id="skills">
+                            <ul>
+                                <li><span>Physics</span><br/>Classical Mechanics, General Relativity, Quantum Mechanics Concepts.</li>
+                                <li><span>AI</span><br/>Artificial Neural Networks, Convolutional Neural Networks, Integrating AI and more</li>
+                                <li><span>Robotics</span><br/>Working with Arduino to create self-sustaining smart home systems, IoT as solutions for a smart home and more</li>
+                            </ul>
+
+                        </div>
+                        <div class="tab-contents" id="activites">
+                            <ul>
+                                <li><span>Teaching Physics to the Unprivileged</span><br/>This involves a transformative trip to BVJSS in order to teach the unprivileged the key discipline of Physics, which will add to their foundations and promote a lifelong career.</li>
+                                <li><span>'No Single Use Plastic': A local drive</span><br/>Taking the opportunity of Ganesh Chaturthi, I, along with my friends went on an initiative to spread awareness about single-use plastic, by giving speeches the securities and posters in various locations to drive awareness. While this was an action at a local scale, we aim to soon use the power of modern technologies to spread awareness on a global scale.</li>
+                                <li><span>Founding of DROPLETS</span><br/>DROPLETS, was founded in an attempt to integrate smart IoT and AI-based technologies to reduce water consumption in hotel and save water. My team and I are still working on the project, and aiming for reducing a significant amount of water usage from various hotels.</li>
+                            </ul>
+
+                        </div>
+                        <div class="tab-contents" id="education">
+                            <ul>
+                                <li><span>~2019-2021</span><br/>Sudied at St. Peters School, Barcelona</li>
+                                <li><span>2022-2024</span><br/>Completed MYP2, MYP3 and MYP4 at Victorious Kidss Educares</li>
+                                <li><span>2024 May-Current</span><br/>Studying in MYP5 at Victorious Kidss Educares</li>
+                            </ul>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!------services------>
+
+        <div id="services">
+            <div class="container">
+                <h1 class="subtitle">My Services</h1>
+                <div class="services-list">
+                    <div>
+                        <i class="fa-solid fa-brain"></i>
+                        <h2>AI Integration Solutions</h2>
+                        <p>AI is a field that could potentially be another turning point in human history. I offer AI integration solutions in a diverse array of situations, including image recognition, user chatbots, and more! Want to work with me? Let's get in touch!</p>
+                        <a href="#">Learn More</a>
+                    </div>
+                    <div>
+                        <i class="fa-solid fa-robot"></i>
+                        <h2>Robotics</h2>
+                        <p>Robotics is yet another field I'm absolutely passionate and experienced in! Want to work with me for anything from IoT integration to self-sustaining intelligent smart-home robotic systems? Let's get in touch!</p>
+                        <a href="#">Learn More</a>
+                    </div>
+                    <div>
+                        <i class="fa-solid fa-atom"></i>
+                        <h2>Physics</h2>
+                        <p>Physics is the tool, the rulebook of our universe, and I aim to grasp as much as possible in a lifetime. Meanwhile, I strongly believe that Physics the tools of Physics can be implemented into AI. Want to work with me? Let's get in touch!</p>
+                        <a href="#">Learn More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Portfolio-->
+        <div id="portfolio">
+            <div class="container">
+                <h1 class="subtitle">My Work</h1>
+                <div class="work-list">
+                    <div class="work">
+                        <img src="images/work-1.png" alt="ALGOVER">
+                        <div class="layer">
+                            <h3>ALGOVER</h3>
+                            <p>Innovative solutions to overcome the barrier of learning to code.</p>
+                            <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="images/work-2.png" alt="TANTRIKA HERITAGE">
+                        <div class="layer">
+                            <h3>TANTRIKA HERITAGE</h3>
+                            <p>Using technology to promote Indian Culture</p>
+                            <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="images/work-3.png" alt="FOCUSCRAFT FUSION">
+                        <div class="layer">
+                            <h3>FocusCraft Fusion</h3>
+                            <p>Applying Robotics and intelligence for an innovative desk organiser to enter 'deep focus'!</p>
+                            <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <a href="#" class="btn">See More</a>
+            </div>
+        </div>
+
+        <!--CONTACT-->
+
+        <div id="contact">
+            <div class="container">
+                <div class="row">
+                    <div class="contact-left">
+                        <h1 class="subtitle">Contact Me</h1>
+                        <p><i class="fa-solid fa-paper-plane"></i>contact@palrishabh.com</p>
+                        <p><i class="fa-solid fa-phone-volume"></i>+91 9900042471/+91 8983513324</p>
+                        <div class="social-icons">
+                            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                            <a href="#"><i class="fa-brands fa-twitter-square"></i></a>
+                            <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                        </div>
+                        <a href="images/document.pdf" download class="btn btn2">Download Document</a>
+                    </div>
+                    <div class="contact-right">
+                        <form name="submit-to-google-sheet">
+                            <input type="text" name="Name" placeholder="Your Name" required/>
+                            <input type="email" name="email" placeholder="Your E-mail" required/>
+                            <textarea name="Message" row="6" placeholder="Your Message"></textarea>
+                            <button type="submit" class="btn btn2">Submit</button>
+                        </form>
+                        <span id="msg"></span>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>Copyright © Palrishabh. Made with <i class="fa-solid fa-heart"></i> by Rishabh Pal.</p>
+            </div>
+        </div>
+        <script>
+            var tablinks=document.getElementsByClassName("tab-links");
+            var tabcontents=document.getElementsByClassName("tab-contents")
+            function opentab(tabname) {
+                for(tablink of tablinks){
+                    tablink.classList.remove("active-link");
+                }
+                for(tabcontent of tabcontents){
+                    tabcontent.classList.remove("active-tab");
+                }
+                event.currentTarget.classList.add("active-link");
+                document.getElementById(tabname).classList.add("active-tab");
+            }
+        </script>
+        <script>
+            var sidemenu=document.getElementById("sidemenu");
+
+            function openmenu(){
+                sidemenu.style.right="0"
+            }
+            function closemenu(){
+                sidemenu.style.right="-200px"
+            }
+        </script>
+        <script>
+                    function checkWidthAndChangeText() {
+            if (window.innerWidth <= 600) {
+                document.getElementById('mainWelcome').innerHTML = 'Hi, I\'m <br/><span>Rishabh!</span>';
+            }
+        }
+
+        // Run the function on page load
+        checkWidthAndChangeText();
+
+        // Run the function on window resize
+        window.addEventListener('resize', checkWidthAndChangeText);
+        </script>
+                <script>
+            var sidemenu=document.getElementById("sidemenu");
+
+            function openmenu(){
+                sidemenu.style.right="0"
+            }
+            function closemenu(){
+                sidemenu.style.right="-200px"
+            }
+        </script>
+        <script>
+                    function checkWidthAndChangeText() {
+            if (window.innerWidth <= 600) {
+                document.getElementById('mainWelcome').innerHTML = 'Hi, I\'m <span>Pal!</span>';
+            }
+        }
+
+        // Run the function on page load
+        checkWidthAndChangeText();
+
+        // Run the function on window resize
+        window.addEventListener('resize', checkWidthAndChangeText);
+        </script>
+        <script>
+                    function checkWidthAndChangeText() {
+            if (window.innerWidth <= 600) {
+                document.getElementById('mainWelcomeText').innerHTML = 'Physics+AI+Robotics';
+            }
+        }
+
+        // Run the function on page load
+        checkWidthAndChangeText();
+
+        // Run the function on window resize
+        window.addEventListener('resize', checkWidthAndChangeText);
+        </script>
+        <script>
+            const scriptURL = 'https://script.google.com/macros/s/AKfycbzp6D376N9G6M8kwR-JE51_jrhQ1GtV6dEAHWIjkATdLUMxCF9ag9iLU9_pfxCzRBsZ/exec'
+            const form = document.forms['submit-to-google-sheet']
+            const msg=document.getElementById("msg")
+          
+            form.addEventListener('submit', e => {
+              e.preventDefault()
+              fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+                .then(response => {
+                    msg.innerHTML="Welcome!"
+                    setTimeout(function(){
+                        msg.innerHTML=""
+                    }, 5000)
+                    form.reset()
+                })
+                .catch(error => console.error('Error!', error.message))
+            })
+          </script>
+    </body>
+
+</html>
